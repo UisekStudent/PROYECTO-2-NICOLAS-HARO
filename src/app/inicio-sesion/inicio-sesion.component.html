@@ -1,25 +1,21 @@
-
 <div class="login">
-    <h1 style="margin-left: 1em; margin-top: 0.5em;">PUCELANT</h1>
+    <h1 style="margin-left: 1em; margin-top: 0.5em;">PROYECTO 2 NICOLAS HARO</h1>
     <div class="main">
         <div class="sec1">
-            <img src="https://userscontent2.emaze.com/images/7a6e5ada-72e3-4768-b987-333967d70618/b5dda26949f641f98e6fb56da507ccda.png" alt="PUCELANT">
-        </div>    
+            <img src="https://uisek.edu.ec/wp-content/uploads/2024/01/logo-sek-2024-azul.png"
+                alt="PROYECTO 2 NICOLAS HARO">
+        </div>
         <div class="sec2">
-            <form [formGroup]="form" >
-                <div class="input-group mb-3 inp">
-                    <span class="input-group-text" id="basic-addon1" style="border: 1px solid black;">Email</span>
-                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1" style="border: 1px solid black;">
-                </div>
-                <div class="input-group mb-3 inp2">
-                    <span class="input-group-text" id="basic-addon1" style="border: 1px solid black;">Contrasena</span>
-                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" style="border: 1px solid black;" aria-describedby="basic-addon1">
-                </div>
-                <div class="btn">
-                    <button type="submit" class="btn btn-primary">Ingresar</button>
-                </div>
-                
+            <form [formGroup]="form">
+                <label>Correo:</label>
+                <input type="email" formControlName="correo" placeholder="Ingresa tu correo">
+
+                <label>Contraseña:</label>
+                <input type="password" formControlName="pass" placeholder="Ingresa tu contraseña">
+
+                <button type="button" (click)="registrarUsuario()">Registrar</button>
+                <button type="button" (click)="iniciarSesion()">Iniciar Sesión</button>
             </form>
-        </div>  
+        </div>
     </div>
 </div>

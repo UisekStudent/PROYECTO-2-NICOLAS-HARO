@@ -1,14 +1,12 @@
 export const environment = {
   production: false,
   firebase: {
-    projectId: 'pucelant',
-    appId: '1:619266595534:web:64b1218210e58a195f4e9f',
-    databaseURL: 'https://pucelant-default-rtdb.firebaseio.com',
-    storageBucket: 'pucelant.appspot.com',
-    locationId: 'us-central',
-    apiKey: 'AIzaSyC4Ajx_F7DPo03U2HpDEMnVpY8EVqhZupM',
-    authDomain: 'pucelant.firebaseapp.com',
-    messagingSenderId: '619266595534',
-    measurementId: 'G-KPQ1Z6V7YF',
+    apiKey: "AIzaSyAdLSM33VsTZXPLtM5XD3V4Os3ZfP0RCac",
+    authDomain: "proyecto-2-nicolas-haro.firebaseapp.com",
+    projectId: "proyecto-2-nicolas-haro",
+    storageBucket: "proyecto-2-nicolas-haro.appspot.com",
+    messagingSenderId: "275859207178",
+    appId: "1:275859207178:web:ecfc67f83071ca43291bf3",
+    measurementId: "G-4S2PNMEVJM",
   }
 };
